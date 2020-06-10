@@ -1,0 +1,153 @@
+header h1 
+{
+	text-align: center;
+	font-family:arial;
+	font-weight: bold;
+}
+
+
+
+.bg
+{
+	background-color: grey;
+	width: 400px;
+	height: 100px;
+	padding-top: 35px;
+	padding-left: 9px;
+	padding-right: 9px;
+	border: 2px solid black;
+	margin-right: 20px;
+	margin-left: 0px;
+	float:left;
+
+
+}
+
+#Chicken
+{
+	background-color: pink;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: right;
+	border: 2px solid black;
+	position: relative;
+	top: -123px;
+	right: -9px;
+
+
+}
+
+#Beef
+{
+	background-color: red;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: right;
+	border: 2px solid black;
+	position: relative;
+	top: -105px;
+	right: -9px;
+
+}
+
+#Sushi
+{
+	background-color: yellow;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: right;
+	position: relative;
+	top: 1px;
+	border: 2px solid black;
+	position: relative;
+	top: -110px;
+	right: -9px;
+
+
+}
+
+@media    (min-width: 991px)
+{
+
+
+.bg
+{
+	background-color: grey;
+	width: 400px;
+	height: 100px;
+	padding-top: 35px;
+	padding-left: 9px;
+	padding-right: 9px;
+	border: 2px solid black;
+	margin-right: 20px;
+	margin-left: 0px;
+	float:left;
+
+
+}
+
+}
+
+
+@media (min-width: 768px ) and (max-width: 992px)
+{
+
+#third
+{
+	
+width: 100%;
+margin: 85px 30px 25px 0;
+
+}
+section
+{
+	margin-right: 30px;
+}
+#second
+{
+	
+}
+#Sushi
+{
+	background-color: yellow;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: right;
+	position: relative;
+	top: 1px;
+	border: 2px solid black;
+	position: relative;
+	top: -70px;
+	right: -9px;
+
+
+}
+
+
+}
+
+@media  (max-width: 767px)
+{
+section div
+{
+	
+margin: 10px 25px 10px 25px;
+width: 100%;
+
+}
+
+section
+{
+	text-align: center;
+}
+
+
+}
